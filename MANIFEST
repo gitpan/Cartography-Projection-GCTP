@@ -84,4 +84,6 @@ gctpc/wivinv.c
 gctpc/wviifor.c
 gctpc/wviiinv.c
 ppport.h
+projection-example.pl
 t/1.t
+META.yml                                 Module meta-data (added by MakeMaker)

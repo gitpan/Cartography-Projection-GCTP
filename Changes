@@ -6,3 +6,7 @@ Revision history for Perl extension Cartography::Projection::GCTP.
 
 0.02  Fri Feb 28 13:36:51 AKST 2003
 	- renamed to Cartography::Projection::GCTP
+
+0.03  Thu May 27 19:24:02 AKDT 2004
+	- added deprecation notice
+	- added example script

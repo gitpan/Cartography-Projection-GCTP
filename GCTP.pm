@@ -34,7 +34,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub AUTOLOAD {
     # This AUTOLOAD is used to 'autoload' constants from the constant()
@@ -161,13 +161,16 @@ __END__
 
 =head1 NAME
 
-Cartography::Projection::GCTP - Perl extension for gctpc projection library
+Cartography::Projection::GCTP - Perl extension for gctpc projection library (deprecated)
 
 =head1 SYNOPSIS
 
   use Cartography::Projection::GCTP;
 	
 =head1 DESCRIPTION
+
+  Note: this module is only for compatibility with old applications that use GCTPc.
+  All new projects should use Geo::Proj4 with is a wrapper around libproj4.
 
   my($out_x, $out_y) = Cartography::Projection::GCTP->projectCoordinatePair(
                 $in_x, $in_y,
